@@ -1,7 +1,6 @@
 package com.example.retouno;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -49,6 +48,7 @@ public class Categorias extends AppCompatActivity {
         button_iron.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //La pantalla de metal se llama vidrio en este archivo sorry
                 Intent irARecicla_iron = new Intent(Categorias.this,Vidrio.class);
                 startActivity(irARecicla_iron);
             }

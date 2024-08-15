@@ -37,7 +37,8 @@
             android:id="@+id/spinner3"
             android:layout_width="140dp"
             android:layout_height="48dp"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:entries="@array/componentes_array"/>
 
         <Space
             android:layout_width="match_parent"
@@ -60,7 +61,8 @@
             android:id="@+id/spinner4"
             android:layout_width="140dp"
             android:layout_height="48dp"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:entries="@array/tipo_pila_array"/>
 
         <Space
             android:layout_width="match_parent"
