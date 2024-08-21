@@ -52,7 +52,7 @@ public class Glass extends AppCompatActivity {
                 Toast.makeText(Glass.this, "Seleccionaste: " + selectedColor, Toast.LENGTH_SHORT).show();
 
                 // Guardar en SharedPreferences
-                SharedPreferences sharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE);
+                SharedPreferences sharedPreferences = getSharedPreferences("Vidrio", MODE_PRIVATE);
                 SharedPreferences.Editor editor = sharedPreferences.edit();
                 editor.putString("spinner_selection", selectedColor);
                 editor.apply();

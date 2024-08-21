@@ -34,7 +34,7 @@ public class Plastico extends AppCompatActivity {
                 String text3 = plastic_three.getText().toString();
 
                 //Guardar los datos en Shared Preferences
-                SharedPreferences sharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE);
+                SharedPreferences sharedPreferences = getSharedPreferences("Plastico", MODE_PRIVATE);
                 SharedPreferences.Editor editor = sharedPreferences.edit();
                 editor.putString("text1", text1);
                 editor.putString("text2", text2);

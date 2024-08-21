@@ -42,7 +42,7 @@ public class Paper extends AppCompatActivity {
 
                     // Crear un Intent para enviar los datos
                     Intent intent = new Intent(Paper.this, MainActivity.class);
-                    intent.putStringArrayListExtra("DATA_LIST", data);
+                    intent.putStringArrayListExtra("Paper_LIST", data);
                     startActivity(intent);
                     Toast.makeText(getApplicationContext(),"Informacion guardada",Toast.LENGTH_SHORT).show();
                 }
